@@ -18,6 +18,10 @@
 |
 */
 
-import Route from '@ioc:Adonis/Core/Route'
+import Route from "@ioc:Adonis/Core/Route";
 
-Route.get('/', 'HomeController.index')
+Route.get("/", "HomeController.index");
+Route.post("/mandar-datos-al-server", "HomeController.store");
+Route.get("/buscar-algo", "HomeController.search");
+
+Route.get("/users", "UserController.index");
