@@ -24,4 +24,4 @@ Route.get("/", "HomeController.index");
 Route.post("/mandar-datos-al-server", "HomeController.store");
 Route.get("/buscar-algo", "HomeController.search");
 
-Route.get("/users", "UserController.index");
+Route.get("/users", "UsersController.index");
